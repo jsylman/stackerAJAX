@@ -116,7 +116,7 @@ var getInspiration = function(tag) {
 	};
 
 	$.ajax({
-		url: "http://api.stackexchange.com/2.2/tags/"+tag+"/top-answerers/all_time?",
+		url: "https://api.stackexchange.com/2.2/tags/"+tag+"/top-answerers/all_time?",
 		data: request,
 		dataType: "jsonp",
 		type: "GET",
